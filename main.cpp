@@ -96,7 +96,7 @@ int main()
             cin >> updatenama;
             cout << "Masukan nama baru : ";
             cin >> namabaru;
-            cout << "Masukan nama baru : ";
+            cout << "Masukan tinggi badan baru : ";
             cin >> tinggibadanbaru;
             updateumur(l, updatenama, namabaru, tinggibadanbaru);
         }
