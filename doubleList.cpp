@@ -222,16 +222,11 @@ int tbtertinggi(list_integer &l)
 double ratarata(list_integer &l) 
 {
     int count = 0;
-    address current = l.first;
-    while (current != NULL) {
-        count++;
-        current = current->next;
-    }
-
     int sum = 0;
     address temp = l.first; 
     while (temp != NULL) {
         sum += temp->info.tinggibadan;
+        count++;
         temp = temp->next;
     }
 
